@@ -22,14 +22,14 @@
 (defun pigl (wd &optional (seen '()))
   "Convert a word (string) into its Pig Latin form"
   (cond
-    ((not (valid-word-p wd))
-      (error "Invalid word: ~A" wd))
-  ((pl-done-p wd)
-    (concatenate 'string wd "ay"))
-  ((member wd seen :test #'string=)
-    (error "Infinite recursion detected - invalid transformation for: ~A" wd))
-  (t
-    (pigl (concatenate 'string
-                       (subseq wd 1)
-                       (subseq wd 0 1))
-          (cons wd seen)))))
+   ((not (valid-word-p wd))
+     (error "Invalid word: ~A" wd))
+   ((pl-done-p wd)
+     (concatenate 'string wd "ay"))
+   ((member wd seen :test #'string=)
+     (error "Infinite recursion detected - invalid transformation for: ~A" wd))
+   (t
+     (pigl (concatenate 'string
+             (subseq wd 1)
+             (subseq wd 0 1))
+           (cons wd seen)))))
