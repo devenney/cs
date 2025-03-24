@@ -1,10 +1,11 @@
-# Structure and Interpretation of Computer Programs (SICP)
+# CS61A - Spring 2011
 
-* [HTML5 Book](https://sarabander.github.io/sicp/)
+* [Lectures](https://archive.org/details/ucberkeley_webcast_itunesu_438297790)
+* [Course Materials](https://github.com/theurere/berkeley_cs61a_spring-2011_archive)
 
 ## Code
 
-Code in this repository follows the book exercises.
-It is written using the Racket `sicp` collection.
+Code in this repository diverges from the course content.
+It is written in Steel Bank Common Lisp (SBCL).
 
-Files should have the extension `.rkt` and the `#lang sicp` block.
+Files should have the extension `.lisp` and **no** `#lang` block.
