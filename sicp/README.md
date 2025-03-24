@@ -5,6 +5,6 @@
 ## Code
 
 Code in this repository follows the book exercises.
-It is written using the Racket `sicp` collection.
+It is written using the [Racket](https://racket-lang.org/) `sicp` collection.
 
 Files should have the extension `.rkt` and the `#lang sicp` block.

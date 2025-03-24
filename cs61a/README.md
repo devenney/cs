@@ -6,6 +6,6 @@
 ## Code
 
 Code in this repository diverges from the course content.
-It is written in Steel Bank Common Lisp (SBCL).
+It is written in [Steel Bank Common Lisp (SBCL)](https://www.sbcl.org/).
 
 Files should have the extension `.lisp` and **no** `#lang` block.
